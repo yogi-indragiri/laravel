@@ -2,7 +2,7 @@
   "containerDefinitions": [
     {
       "name": "laravel",
-      "image": "adisaputra10/laravel:latest",
+      "image": "dedewahyuh/laravel:latest",
       "cpu": 0,
       "memory": 256,
       "portMappings": [
