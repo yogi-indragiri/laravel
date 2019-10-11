@@ -1,7 +1,7 @@
 {
   "containerDefinitions": [
     {
-      "name": "laravel",
+      "name": "landing-page-eb",
       "image": "dedewahyuh/laravel:latest",
       "cpu": 0,
       "memory": 256,
@@ -11,7 +11,7 @@
         }
       ],
       "dockerLabels" : {
-        "container" : "laravel",
+        "container" : "landing-page-eb",
         "environment" : "development"
       },
       "logConfiguration" : {
