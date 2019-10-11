@@ -1,5 +1,5 @@
-#FROM marcusmyers/laravel
-FROM nginx
+FROM marcusmyers/laravel
+#FROM nginx
 #HEALTHCHECK CMD curl -f http://localhost:8000/status || exit 1
 #STOPSIGNAL SIGKILL
 
