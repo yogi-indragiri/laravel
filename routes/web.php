@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/hallo', function () {
+    return "Hallo Yogi :)";
+});
+
 
 Route::get('/status', function () {
     $dbstatus = "";
