@@ -20,7 +20,6 @@ spec:
           image: indragiri21/laravel-jenkins:buildNumber
           ports:
             - containerPort: 8000
-          type: LoadBalancer
 
 ---
 
@@ -34,3 +33,4 @@ spec:
   ports:
     - port: 8000
       targetPort: 8000
+  type: LoadBalancer
